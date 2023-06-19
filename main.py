@@ -195,7 +195,8 @@ def index():
         
         # print("array: ", array)
         return render_template('index.html', link1 = array[0][0], link1_text=array[0][1], link2 = array[1][0], link2_text = array[1][1], 
-                               link3 = array[2][0], link3_text = array[2][1], suggestions = suggestions) 
+                               link3 = array[2][0], link3_text = array[2][1], s0 = suggestions[0], s1 = suggestions[1], s2 = suggestions[2])
+
     else:
         return render_template('index.html')
 
