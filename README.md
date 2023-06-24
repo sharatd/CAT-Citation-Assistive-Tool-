@@ -9,7 +9,7 @@ I aim to solve these issues with CAT, a tool that offers accessible and easy to 
 # Approach 
 CAT is a user-friendly system that integrates ChatGPT to summarize topical information from Google by utilizing up-to-date web information as its source. 
 The tool leverages the Google Search API and Google Suggest API to retrieve the information available on a subject and provide information on related topics. 
-Instead of simply presenting the entire web page, like Google, CAT utilizes the GPT 3.5 Turbo API to quickly and efficiently summarize the text from these websites for the user.
+Instead of simply presenting the entire web page, like Google, CAT utilizes the GPT 3.5 Turbo API to quickly and efficiently summarize the text from three websites for the user.
 In addition, it tailors the desired information to the user’s preferences using domain type and publishing time frame of the sources. 
 All of this together allows the user to have more confidence that the information provided by ChatGPT is accurate and dependable while also presenting in-depth info in a quick and neat manner.
 
